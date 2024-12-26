@@ -1,0 +1,46 @@
+body{
+    background-color: #040204;
+}
+p{
+    color: #ff6666;
+    font-size: 19px;
+    border-color: #ff6666;
+}
+.Titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+h1{
+   text-align: center;
+    color: #ff6666;
+    font-size: 70;
+}
+
+.Carta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.rotate{
+    transform: rotate(180deg);
+}
+h2{
+    color: #ff6666;
+    text-align: center;
+    font-size: 100px;
+}
+.boton {
+    float: right;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .boton:hover {
+    background-color: #3e8e41;
+  }
